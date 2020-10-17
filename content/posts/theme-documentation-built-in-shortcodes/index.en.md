@@ -150,7 +150,6 @@ Example `tweet` input:
 
 The rendered output looks like this:
 
-{{< tweet 877500564405444608 >}}
 
 ## 8 vimeo
 
