@@ -4,14 +4,14 @@ slug: "{{ replace .TranslationBaseName "-" "-" | title }}"
 date:    {{ .Date }}
 lastmod: {{ .Date }}
 tags: [
-    "",
-    "",
+    "xx法",
     "2020年",
-    "法律全文",
+
 ]
 categories: [
     "IT",
     "Laws",
+    "法律全文",
 ]
 
 ---
