@@ -18,5 +18,6 @@ weight: 55
 
 排名不限先后
 
-* [破竹](http://zy2071.com/)
+* [刺 猬 阁](http://liuhaijiang.com/)
+* [老徐有话要讲](https://bigger.ee/)
 <!--more-->
