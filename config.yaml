@@ -166,7 +166,7 @@ menu:
               
         - identifier: IT
           name: IT
-          url: //categories/it/
+          url: /categories/it/
           weight: -98
           pre: laptop
           params:
@@ -175,9 +175,45 @@ menu:
               
         - identifier: Laws
           name: Laws
-          url: //categories/laws/
+          url: /categories/laws/
           weight: -96
           pre: news
+          params:
+              ### For demonstration purpose, the home link will be open in a new tab
+              newTab: false
+              
+        - identifier: Archives
+          name: Archives
+          url: /archives/
+          weight: -94
+          pre: archives
+          params:
+              ### For demonstration purpose, the home link will be open in a new tab
+              newTab: false
+              
+        - identifier: Search
+          name: Search
+          url: /search/
+          weight: -92
+          pre: search
+          params:
+              ### For demonstration purpose, the home link will be open in a new tab
+              newTab: false
+              
+        - identifier: About
+          name: About
+          url: /about/
+          weight: -90
+          pre: user
+          params:
+              ### For demonstration purpose, the home link will be open in a new tab
+              newTab: false
+              
+        - identifier: Links
+          name: Links
+          url: /links/
+          weight: -89
+          pre: people
           params:
               ### For demonstration purpose, the home link will be open in a new tab
               newTab: false
