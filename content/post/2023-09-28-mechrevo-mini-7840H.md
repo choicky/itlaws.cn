@@ -29,15 +29,16 @@ categories: [
 
 为什么呢？因为 AMD 为了卖独立显卡，故意弱化台式机的 CPU 的核显（也就是“亮机卡”）。而 AMD 笔记本的 CPU 的核显倒是很强。而这些迷你主机用的 CPU 是笔记本的 CPU，所以核显性能碾压一切台式机的核显。
 
-这些迷你主机虽然使用笔记本的CPU，但因为迷你主机的散热、供电往往比笔记本好很多，所以 CPU 性能也过得去。祭两张图作为证据：
+这些迷你主机虽然使用笔记本的CPU，但因为迷你主机的散热、供电往往比笔记本好很多，所以 CPU 性能也过得去。祭两张图作为证据.
 
-![](https://itlaws.cn/img/2023/7840H-benchmark.jpg)
-
-![](https://itlaws.cn/img/2023/firefox-benchmark.jpg)
-
+图1：鲁大师的娱乐跑分：
+![鲁大师的娱乐跑分](/img/2023/7840H-benchmark.jpg)
 我买的这款迷你主机，CPU 是 AMD 7840H，鲁大师的娱乐跑分是 90 万，比而台式机 5700X 的跑分 70 万高了接近 30%。一台小主机的娱乐跑分能接近 145 万，可以称为小钢炮了。
 
-而 Firefox 的 <https://browserbench.org/> 跑分，也能看到，火狐在 7840H 的跑分明显比台式机的 5600G、5700X 高（图中的 5700X 台式机有 2060s 独立显卡，所以 MotionMark 1.2 跑分高一些）。
+图2：Firefox 的 <https://browserbench.org/> 跑分：
+![Firefox的跑分](/img/2023/firefox-benchmark.jpg)
+
+火狐在 7840H 的跑分明显比台式机的 5600G、5700X 高（图中的 5700X 台式机有 2060s 独立显卡，所以 MotionMark 1.2 跑分高一些）。
 
 ### 为什么选机械革命的无界 S mini
 
@@ -63,19 +64,24 @@ categories: [
 
 首先是体积，明显比水果家的 M2 Mac mini 小一圈。
 
-![](https://itlaws.cn/img/2023/Mac-mini-M2-Mechrevo-7840H.jpg)
+图3：无界S mini主机与M2 Mac mini尺寸对比：
+![无界S mini主机与M2 Mac mini尺寸对比](/img/2023/Mac-mini-M2-Mechrevo-7840H.jpg)
 
 其次是允许用户增加、替换内存与硬盘。内部设计了两个内存插槽（支持 DDR5 5600Mhz）、两个 M2 硬盘位（PCIe 4.0 协议）。
 
 第三是接口比较多，有两个全功能的 type-C（据说支持 USB 4.0 协议），两个 HDMI（据说是 2.1 版本）、四个 USB type-A（据说是 USB 3.2 协议），以及音频孔之类的。我下班时绕机器转一圈：
 
-![](https://itlaws.cn/img/2023/Mechrevo-7840H-front.jpg)
+图4：无界S mini正面
+![无界S mini正面](/img/2023/Mechrevo-7840H-front.jpg)
 
-![](https://itlaws.cn/img/2023/Mechrevo-7840H-left.jpg)
+图5：无界S mini右侧面
+![无界S mini右侧面](/img/2023/Mechrevo-7840H-right.jpg)
 
-![](https://itlaws.cn/img/2023/Mechrevo-7840H-back.jpg)
+图6：无界S mini背面
+![无界S mini背面](/img/2023/Mechrevo-7840H-back.jpg)
 
-![](https://itlaws.cn/img/2023/Mechrevo-7840H-left.jpg)
+图7：无界S mini左侧面
+![无界S mini左侧面](/img/2023/Mechrevo-7840H-left.jpg)
 
 第四是做工还可以，还算耐看。不像戴尔那些黑乎乎一坨的机箱。
 
@@ -83,15 +89,16 @@ categories: [
 
 另一个缺点，是 Windows 小主机的通病：主机看起来不大，但标配的充电头往往很大，你们看看：
 
-![](https://itlaws.cn/img/2023/Mechrevo-7840H-adapter.jpg)
+图8：无界S mini及其充电器
+![无界S mini及其充电器](/img/2023/Mechrevo-7840H-adapter.jpg)
 
 幸好，无界 S mini 的 type-C 口，既能对外输出视频信号，又能接受供电。如果显示器有 type-C 线（俗话的“一线通”），单独连接这根线，就能既在显示器上显示，又能给小主机供电了，不在需要使用这中砖头大小的充电头。
 
 ### 其他小坑
 
-第一个小坑是 BIOS 界面的兼容性。 机械革命无界 S mini，默认划分给核显的显存是 2G（还是 3G）？我加了一条 16G 的[英睿达 DDR5 5600 频率的笔记本内存](https://item.jd.com/100051724951.html)，看在 总共有32G 内存的份上，打算给核显划分 8G。但这小主机在我的老 4K 显示器上，无法显示完整的 BIOS 界面。网上的官方售后显然没有任何经验，问他们纯粹浪费我时间（例如，她们发一个连接过来教我在 Windows 11 中如何设置屏幕分辨率）。最后我是借用同事的显示器进入 BIOS 完成了设置。
+第一个小坑是 BIOS 界面的兼容性。 机械革命无界 S mini，默认划分给核显的显存是 2G（还是 3G）？我加了一条 16G 的[英睿达 DDR5 5600 频率的笔记本内存](https://item.jd.com/100051724951.html)，看在总共有32G 内存的份上，打算给核显划分 8G。但这小主机在我的老 4K 显示器（四五年前的）上，无法显示完整的 BIOS 界面，导致我无法进行设置。网上的官方售后显然没有任何经验，问他们纯粹浪费我时间（例如，她们发一个连接过来教我在 Windows 11 中如何设置屏幕分辨率）。最后我是借用同事的显示器进入 BIOS 完成了设置。
 
-第二个小坑是无法禁用“安全引导” 我想从 U 盘启动安装新系统。但从 U 盘启动时，被拒绝，提示：
+第二个小坑是无法禁用“安全引导” 。我想从 U 盘启动安装新系统。但从 U 盘启动时，被拒绝，提示：
 ```
     安全引导冲突
     检测到无效签名，检查BIOS设置中的安全引导策略
