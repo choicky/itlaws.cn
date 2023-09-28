@@ -21,7 +21,7 @@ categories: [
 
 ---
 
-最近买了机械革命的[无界 S mini 主机](https://item.jd.com/100063806431.html)。很久没有更新博客了，趁国庆之前无心干活，水一篇。
+最近买了机械革命的[无界 S mini 主机](https://item.jd.com/100063806431.html) 。很久没有更新博客了，趁国庆之前无心干活，水一篇。
 
 ### 为什么买迷你主机
 
@@ -31,12 +31,10 @@ categories: [
 
 这些迷你主机虽然使用笔记本的CPU，但因为迷你主机的散热、供电往往比笔记本好很多，所以 CPU 性能也过得去。祭两张图作为证据.
 
-图1：鲁大师的娱乐跑分：
-![鲁大师的娱乐跑分](/img/2023/7840H-benchmark.jpg)
+![图1：鲁大师的娱乐跑分](/img/2023/7840H-benchmark.png)
 我买的这款迷你主机，CPU 是 AMD 7840H，鲁大师的娱乐跑分是 90 万，比而台式机 5700X 的跑分 70 万高了接近 30%。一台小主机的娱乐跑分能接近 145 万，可以称为小钢炮了。
 
-图2：Firefox 的 <https://browserbench.org/> 跑分：
-![Firefox的跑分](/img/2023/firefox-benchmark.jpg)
+![图2：Firefox 的 https://browserbench.org/ 跑分](/img/2023/firefox-benchmark.png)
 
 火狐在 7840H 的跑分明显比台式机的 5600G、5700X 高（图中的 5700X 台式机有 2060s 独立显卡，所以 MotionMark 1.2 跑分高一些）。
 
@@ -64,24 +62,20 @@ categories: [
 
 首先是体积，明显比水果家的 M2 Mac mini 小一圈。
 
-图3：无界S mini主机与M2 Mac mini尺寸对比：
-![无界S mini主机与M2 Mac mini尺寸对比](/img/2023/Mac-mini-M2-Mechrevo-7840H.jpg)
+![图3：无界S mini主机与M2 Mac mini尺寸对比](/img/2023/Mac-mini-M2-Mechrevo-7840H.jpg)
 
 其次是允许用户增加、替换内存与硬盘。内部设计了两个内存插槽（支持 DDR5 5600Mhz）、两个 M2 硬盘位（PCIe 4.0 协议）。
 
 第三是接口比较多，有两个全功能的 type-C（据说支持 USB 4.0 协议），两个 HDMI（据说是 2.1 版本）、四个 USB type-A（据说是 USB 3.2 协议），以及音频孔之类的。我下班时绕机器转一圈：
 
-图4：无界S mini正面
-![无界S mini正面](/img/2023/Mechrevo-7840H-front.jpg)
+![图4：无界S mini正面](/img/2023/Mechrevo-7840H-front.jpg)
 
-图5：无界S mini右侧面
-![无界S mini右侧面](/img/2023/Mechrevo-7840H-right.jpg)
+![图5：无界S mini右侧面](/img/2023/Mechrevo-7840H-right.jpg)
 
-图6：无界S mini背面
-![无界S mini背面](/img/2023/Mechrevo-7840H-back.jpg)
+![图6：无界S mini背面](/img/2023/Mechrevo-7840H-back.jpg)
 
-图7：无界S mini左侧面
-![无界S mini左侧面](/img/2023/Mechrevo-7840H-left.jpg)
+
+![图7：无界S mini左侧面](/img/2023/Mechrevo-7840H-left.jpg)
 
 第四是做工还可以，还算耐看。不像戴尔那些黑乎乎一坨的机箱。
 
@@ -89,10 +83,15 @@ categories: [
 
 另一个缺点，是 Windows 小主机的通病：主机看起来不大，但标配的充电头往往很大，你们看看：
 
-图8：无界S mini及其充电器
-![无界S mini及其充电器](/img/2023/Mechrevo-7840H-adapter.jpg)
+![图8：无界S mini及其充电器](/img/2023/Mechrevo-7840H-adapter.jpg)
 
 幸好，无界 S mini 的 type-C 口，既能对外输出视频信号，又能接受供电。如果显示器有 type-C 线（俗话的“一线通”），单独连接这根线，就能既在显示器上显示，又能给小主机供电了，不在需要使用这中砖头大小的充电头。
+
+不过，随着技术的发展，目前的充电头也比之前的好很多了。我用一本书作为背景进行对比：
+
+![图9：无界S mini及其充电器](/img/2023/Mechrevo-7840H-book.jpg)
+
+这本书是北京知识产权法院寄给我的，里面有一个我参与的案例。
 
 ### 其他小坑
 
