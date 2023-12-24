@@ -18,3 +18,4 @@ git submodule update --remote
 # regenerate html with hugo
 chown -R $USER:$USERGROUP $repo_path
 hugo -s $repo_path -d $web_root
+chown -R $USER:$USERGROUP $repo_path
