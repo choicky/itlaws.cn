@@ -27,7 +27,7 @@ categories: [
 
 R2的体积比我之前的J4125小主机小很多，最初我以为两者性能相仿。结果，我在`openwrt`用 `/etc/coremark.sh`测了一下，吓了一跳：
 
-J4125的coremark跑分5200分左右：
+J4125的coremark跑分52000分左右：
 ![ 图1：J4125的 coremark 跑分 ](/img/2024/J4125-coremark.jpg)
 
 而这台R2，体积小很多，但跑分几乎提升了一倍，9万多分：
